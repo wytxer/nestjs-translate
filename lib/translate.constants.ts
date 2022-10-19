@@ -1,0 +1,2 @@
+export const BAIDU_APP_OPTIONS = Symbol('BAIDU_APP_OPTIONS')
+export const YOUDAO_APP_OPTIONS = Symbol('YOUDAO_APP_OPTIONS')
