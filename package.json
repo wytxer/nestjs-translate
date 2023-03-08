@@ -1,7 +1,7 @@
 {
   "name": "nest-translate",
-  "version": "0.1.2",
-  "description": "基于 Nest 封装的翻译 API",
+  "version": "0.1.3",
+  "description": "基于 nestjs 封装的翻译 API",
   "main": "dist/index.js",
   "directories": {
     "lib": "lib"
@@ -47,7 +47,7 @@
     "node": ">=16"
   },
   "license": "MIT",
-  "homepage": "https://github.com/wytxer/nest-translate/#readme",
+  "homepage": "https://github.com/wytxer/nestjs-translate/#readme",
   "keywords": [
     "nest",
     "nestjs",
@@ -63,9 +63,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wytxer/nest-translate.git"
+    "url": "https://github.com/wytxer/nestjs-translate.git"
   },
   "bugs": {
-    "url": "https://github.com/wytxer/nest-translate/issues"
+    "url": "https://github.com/wytxer/nestjs-translate/issues"
   }
 }

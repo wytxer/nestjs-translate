@@ -1,4 +1,4 @@
-# NEST TRANSLATE
+# NESTJS TRANSLATE
 
 基于 Nest 封装的翻译 API，目前支持百度翻译和有道翻译，持续更新中。
 
@@ -8,19 +8,19 @@
 导入模块：
 
 ```ts
-import { TranslateBaiduModule } from 'nest-translate';
+import { TranslateBaiduModule } from 'nest-translate'
 
 @Module({
   imports: [
-    TranslateBaiduModule.forRoot({ appid: '', secret: '' }),
-  ],
+    TranslateBaiduModule.forRoot({ appid: '', secret: '' })
+  ]
 })
 ```
 
 使用：
 
 ```ts
-import { TranslateBaiduService } from 'nest-translate';
+import { TranslateBaiduService } from 'nest-translate'
 
 @Injectable()
 export class UserService {
@@ -31,9 +31,9 @@ export class UserService {
 当成工具类使用：
 
 ```ts
-import { TranslateBaiduService } from 'nest-translate';
+import { TranslateBaiduService } from 'nest-translate'
 
-const translate = new TranslateBaiduService({ appid: '', secret: '' });
+const translate = new TranslateBaiduService({ appid: '', secret: '' })
 ```
 
 
